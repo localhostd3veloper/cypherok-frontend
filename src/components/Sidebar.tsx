@@ -1,11 +1,9 @@
+import React from "react";
 import navs from "../navs";
 export default function Sidebar() {
   return (
-    <div
-      className="bg-semimidnight/40 w-72 fixed h-screen duration-500"
-      id="sidebar"
-    >
-      <div className="h-screen flex flex-col items-center text-left duration-700 ease-in-out gap-9 pt-7 text-white">
+    <div className="bg-semimidnight/40 h-full duration-500" id="sidebar">
+      <div className="flex flex-col items-center text-left duration-700 ease-in-out gap-9 pt-7 text-white">
         {navs.map((nav) => (
           <div
             key={nav.id}

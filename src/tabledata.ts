@@ -11,7 +11,6 @@ interface TableData {
   value: number | string;
 }
 
-
 const tableData: Array<TableData> = [
   {
     id: 0,
